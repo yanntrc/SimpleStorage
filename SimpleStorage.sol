@@ -18,7 +18,7 @@ contract SimpleStorage {
     }
 
     function retrieve () public view returns (uint256) {
-        favoriteNumber;
+        return favoriteNumber;
     }
 
     function addPerson (string memory _name, uint256 _favoriteNumber) public {
